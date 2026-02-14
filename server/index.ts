@@ -90,9 +90,7 @@ export async function createApp(): Promise<typeof app> {
 if (process.env.VERCEL !== "1") {
   createApp().then(() => {
     const port = parseInt(process.env.PORT || "5000", 10);
-    httpServer.listen(
-      { port, host: "0.0.0.0", reusePort: true },
-      () => log(`serving on port ${port}`),
-    );
+    const host = process.env.NODE_ENV === "development" ? "127.0.0.1" : "0.0.0.0";
+    httpServer.listen(port, host, () => log(`serving on http://${host}:${port}`));
   });
 }
