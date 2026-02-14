@@ -1,0 +1,552 @@
+Build a production-ready landing page + lightweight hackathon web app.
+
+Event
+
+Name: International Innovators Hackathon
+Sponsor: USTAY Global Mobility Solutions (must appear in hero, sponsor section, and footer)
+Audience: International students inside the USA on valid F-1 status only
+Tone: Techy, modern, cinematic, global — “build, ship, conquer the world” — strong international F-1 community identity
+
+IMPORTANT ARCHITECTURE DECISION
+
+❗ Registration is handled externally
+
+The website must NOT collect registration data
+
+The “Register” CTA links to an external registration form
+
+The app only handles:
+
+Landing & information
+
+Submission (using ID generated in the external form)
+
+Admin export for judging
+
+Pages to Build
+1) Home / Landing Page
+
+Hero section:
+
+Animated headline (typewriter / kinetic text)
+
+Messaging focused on:
+
+International students
+
+F-1 status in the USA
+
+Global ambition (“from campus to the world”)
+
+Primary CTAs:
+
+Register Now → external form link (ENV variable)
+
+Join Discord → Discord invite (ENV variable)
+
+Submit Project → internal submission page
+
+Sections:
+
+About the Hackathon (educational, competitive, non-commercial)
+
+Tracks (exact list below)
+
+Timeline
+
+Prizes
+
+Sponsor section (USTAY Global Mobility Solutions)
+
+FAQ
+
+Rules & Compliance (summary + link to Official Rules page)
+
+Design requirements:
+
+Dark mode default
+
+Neon / cyber accents
+
+Framer Motion animations
+
+Smooth scrolling
+
+Interactive “world / globe / expansion” visual (SVG / canvas / animated background)
+
+Premium hackathon feel (not corporate)
+
+Tracks (exact list)
+
+Education & Workforce Development
+
+Healthcare & Life Sciences
+
+Engineering, Infrastructure & Smart Systems
+
+Data, Analytics & Decision Systems
+
+Public Policy, GovTech & Compliance
+
+Energy, Sustainability & Climate Solutions
+
+Entrepreneurship & Scalable Business Solutions
+
+Research, Innovation & Applied Science
+
+Timeline (hardcode but easy to edit)
+
+Registration Opens: Feb 20, 2026
+
+Opening Ceremony: Mar 7, 2026
+
+Submission Period: Mar 7–12, 2026
+
+Judging Period: Mar 12–17, 2026
+
+Closing Ceremony + Results: Mar 20, 2026
+
+Prizes
+
+🥇 1st Place: $1,000
+
+🥈 2nd Place: $500
+
+🥉 3rd Place: $300
+
+Sponsor Section
+
+Logo placeholder
+
+Text:
+“Sponsored by USTAY Global Mobility Solutions, supporting international students building their future in the United States.”
+
+FAQ (must include)
+
+Who can participate? (F-1 only, inside the USA)
+
+Is this considered employment? (No — educational & competitive)
+
+Team size (1–3 people)
+
+Is vibe coding allowed? (Yes)
+
+How does submission work? (ID-based)
+
+How are projects judged? (Excel-based rubric)
+
+2) Registration Flow (External)
+
+The site does NOT implement registration.
+
+Instead:
+
+Register CTA links to an external form (Google Form / Typeform / Tally)
+
+Registration Form Responsibilities (described on site):
+
+Collect participant info
+
+Validate .edu email
+
+Include F-1 self-certification checkbox
+
+Generate a Participant / Group ID
+
+Share ID + Discord invite with participant
+
+On the website:
+
+Clearly explain:
+
+“After registering, you will receive your Hackathon ID by email”
+
+“You will need this ID to submit your project”
+
+3) Submit Project Page (Internal)
+
+Submission requires a valid Hackathon ID.
+
+Fields:
+
+Hackathon Participant / Group ID (required)
+
+Group leader name
+
+Group leader .edu email
+
+Track (dropdown)
+
+Demo video (90s max — upload or link)
+
+PDF upload (max 1000 words) containing:
+
+Problem
+
+Solution
+
+Market analysis
+
+Technical explanation
+
+Next steps
+
+Behavior:
+
+Validate ID format
+
+Store submission
+
+Timestamp submission
+
+Success confirmation screen
+
+4) Official Rules Page
+
+Render rules clearly and professionally:
+
+Include:
+
+Purpose (educational, non-commercial, not employment)
+
+Eligibility (F-1 only, enrolled at SEVP-certified school)
+
+Certification (self-attested during registration)
+
+Privacy (no immigration documents collected or stored)
+
+Team rules (1–3 people)
+
+Prizes (awards, not wages; tax responsibility on participant)
+
+Fraud & disqualification
+
+Immigration compliance disclaimer
+
+Acceptance of rules
+
+5) Admin / Judging Export
+
+Admin-only dashboard (password via ENV).
+
+Functions:
+
+View all submissions
+
+Export CSV (Excel-ready) for judges
+
+CSV fields:
+
+Hackathon ID
+
+Team members
+
+Track
+
+Video link
+
+PDF link
+
+Submission time
+
+Judging rubric reference (display-only):
+
+Innovation (0–25)
+
+Problem Framing (0–20)
+
+Solution Architecture & Feasibility (0–25)
+
+Technical Execution (0–20)
+
+Impact & Educational Value (0–20)
+
+Communication & Presentation (0–15)
+
+Team Collaboration (0–10)
+
+Total: 135
+
+Tie-break order:
+
+Innovation
+
+Solution Architecture
+
+Problem Framing
+
+Tech Stack
+
+Next.js (App Router) + TypeScript
+
+Tailwind + shadcn/ui
+
+Framer Motion
+
+Prisma + SQLite (Replit-friendly)
+
+File uploads local or S3-compatible (ENV-based)
+
+Environment Variables
+
+REGISTRATION_FORM_URL
+
+DISCORD_INVITE_URL
+
+ADMIN_PASSWORD
+
+Optional storage credentials
+
+UX Details
+
+Fast, responsive, premium
+
+Strong global/international visuals
+
+“From your campus to the world” energy
+
+Clear guidance on how the flow works:
+Register → Get ID → Join Discord → Submit → Judging
+
+Deliverables
+
+Full working app
+
+Clean UI
+
+README with setup instructions
+
+Easy config for future hackathons
+
+If you want, next I can:
+
+Write exact landing page copy (hero, slogans, CTAs)
+
+Create USTAY-aligned visual identity
+
+Design the registration form questions
+
+Add a “Why this helps your future in the U.S.” section (very powerful for F-1s)
+
+It;s only lp, all other will be provided like no submission or admi export for judging, on the lp will have for. now just the cta to submit the registration
+
+Got it — LP only, no backend, no submission, no admin, no judging logic.
+Just a high-impact hackathon landing page with CTAs pointing outward. Clean, compliant, and cinematic.
+
+Below is the final Replit prompt, scoped exactly to what you want 👇
+Copy–paste and ship.
+
+Replit Prompt — LP ONLY (Final Scope)
+
+Build a single-page hackathon landing page (LP only).
+
+No backend.
+No database.
+No registration logic.
+No submissions.
+No admin or judging tools.
+
+The site’s only job is to explain the hackathon and redirect users via CTA links.
+
+Event
+
+Name: International Innovators Hackathon
+Sponsor: USTAY Global Mobility Solutions (must be visible in hero, sponsor section, and footer)
+Audience: International students inside the USA maintaining valid F-1 status
+Tone: Techy, futuristic, cinematic, global ambition — “build, ship, conquer the world”
+Theme: International students building solutions that scale beyond borders
+
+Core Requirement
+
+The LP must include CTA buttons only that redirect externally:
+
+Register Now → external registration form (ENV variable)
+
+Join Discord → Discord invite (ENV variable)
+
+No forms or data collection on the site.
+
+Page Structure (Single Page)
+1) Hero Section
+
+Full-screen hero
+
+Dark theme with neon accents
+
+Animated headline (typewriter / kinetic text / staggered reveal)
+
+Messaging must highlight:
+
+International students
+
+F-1 status
+
+Global scale & ambition
+
+Example messaging direction (do not hardcode text yet):
+
+“From Your Campus to the World”
+
+“International Students Building Global Impact”
+
+Primary CTAs:
+
+Register Now
+
+Join Discord
+
+Add subtle motion:
+
+Animated background (globe, grid, stars, world map, orbiting lines, etc.)
+
+Mouse-based parallax or tilt
+
+2) About the Hackathon
+
+Short, sharp explanation
+
+Emphasize:
+
+Educational
+
+Competitive
+
+Non-commercial
+
+Built for international students in the U.S.
+
+Include compliance-safe language:
+
+Participation is not employment
+
+Open exclusively to F-1 students
+
+3) Tracks Section
+
+Display as animated cards or grid.
+
+Exact tracks to show:
+
+Education & Workforce Development
+
+Healthcare & Life Sciences
+
+Engineering, Infrastructure & Smart Systems
+
+Data, Analytics & Decision Systems
+
+Public Policy, GovTech & Compliance
+
+Energy, Sustainability & Climate Solutions
+
+Entrepreneurship & Scalable Business Solutions
+
+Research, Innovation & Applied Science
+
+Hover / reveal animations encouraged.
+
+4) Timeline
+
+Horizontal or vertical timeline with motion effects.
+
+Dates:
+
+Registration Opens — Feb 20, 2026
+
+Opening Ceremony — Mar 7, 2026
+
+Submission Period — Mar 7–12, 2026
+
+Judging Period — Mar 12–17, 2026
+
+Closing Ceremony & Results — Mar 20, 2026
+
+5) Prizes
+
+Clean, bold prize cards:
+
+🥇 $1,000
+
+🥈 $500
+
+🥉 $300
+
+Optional animated counters or glow effects.
+
+6) Sponsor Section
+
+Highlight sponsor clearly but tastefully.
+
+Text direction:
+
+“Sponsored by USTAY Global Mobility Solutions, supporting international students building their future in the United States.”
+
+Include:
+
+Logo placeholder
+
+Subtle trust / credibility styling
+
+7) FAQ
+
+Minimal, clean, accordion style.
+
+Must include:
+
+Who can participate? (F-1 only, inside the U.S.)
+
+Is this employment? (No)
+
+Team size (1–3)
+
+Is vibe coding allowed? (Yes)
+
+How do I register? (External form)
+
+Where is communication handled? (Discord)
+
+8) Final CTA Section
+
+Strong closing message:
+
+Global
+
+Motivational
+
+Student-driven
+
+Buttons:
+
+Register Now
+
+Join Discord
+
+This section should feel like a call to action, not informational.
+
+9) Footer
+
+Include:
+
+Event name
+
+Sponsor mention (USTAY Global Mobility Solutions)
+
+Legal / compliance disclaimer (short)
+
+Social links (optional placeholders)
+
+Design & UX Requirements
+
+Tech-forward hackathon aesthetic
+
+Dark mode default
+
+Neon or cyber accents
+
+Framer Motion for animations
+
+Smooth scrolling
+
+Fully responsive
+
+Premium, modern feel (not corporate, not academic)
