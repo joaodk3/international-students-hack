@@ -113,12 +113,11 @@ export function Navigation() {
                 </a>
               ))}
               <a
-                href={import.meta.env.VITE_DISCORD_INVITE_URL || "#"}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/OFFICIAL_RULES.pdf"
+                download
                 className="mt-2 w-full text-center px-4 py-3 bg-primary text-background font-bold rounded hover:bg-primary/90 transition-all uppercase"
               >
-                Join Now
+                Official Rules
               </a>
             </div>
           </motion.div>

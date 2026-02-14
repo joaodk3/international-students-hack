@@ -93,9 +93,9 @@ function Hero() {
               Register Now <ChevronRight className="w-4 h-4" />
             </CyberButton>
           </a>
-          <a href={import.meta.env.VITE_DISCORD_INVITE_URL || "#"} target="_blank" rel="noopener noreferrer">
+          <a href="/OFFICIAL_RULES.pdf" download>
             <CyberButton variant="outline" className="w-full sm:w-auto">
-              Join Discord <Users className="w-4 h-4 ml-2" />
+              Official Rules <ShieldCheck className="w-4 h-4 ml-2" />
             </CyberButton>
           </a>
         </motion.div>
