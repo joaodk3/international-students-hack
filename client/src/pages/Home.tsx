@@ -66,13 +66,20 @@ function Hero() {
         </motion.h1>
 
         <motion.p 
-          className="text-xl md:text-2xl text-muted-foreground max-w-2xl mb-10 font-light"
+          className="text-xl md:text-2xl text-muted-foreground max-w-3xl mb-4 font-light"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
           45% of U.S. unicorn founders are immigrants — be the next one.
-          <span className="text-primary font-mono text-base mt-2 block">Powered by USTAY Global Mobility Solutions</span>
+        </motion.p>
+        <motion.p
+          className="text-primary font-mono text-sm mb-10"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+        >
+          Powered by USTAY Global Mobility Solutions
         </motion.p>
 
         <motion.div 
