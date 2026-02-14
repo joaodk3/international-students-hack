@@ -60,9 +60,9 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          BUILT BY <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-gray-500">INTERNATIONAL</span> <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-cyan-400 to-secondary text-glow">STUDENTS</span>
+          INNOVATION <br />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-gray-500">DOESN'T NEED</span> <br />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-cyan-400 to-secondary text-glow">PERMISSION</span>
         </motion.h1>
 
         <motion.p 
