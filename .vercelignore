@@ -1,0 +1,24 @@
+# Dependencies (installed on Vercel)
+node_modules
+
+# Local / dev
+.local
+.replit
+*.local
+
+# Git
+.git
+.gitignore
+
+# Docs and dev assets (optional; remove if you need them in deploy)
+attached_assets
+*.md
+!README.md
+
+# Tests and tooling (not needed in serverless runtime)
+*.test.ts
+*.spec.ts
+__tests__
+coverage
+.env*.local
+.env.development
