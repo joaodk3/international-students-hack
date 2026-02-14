@@ -57,7 +57,7 @@ export function Navigation() {
           className="text-2xl font-bold font-mono tracking-tighter hover:text-primary transition-colors"
         >
           <span className="text-primary">&lt;</span>
-          GLOBAL_HACK
+          INTL_HACK
           <span className="text-primary">/&gt;</span>
         </a>
 

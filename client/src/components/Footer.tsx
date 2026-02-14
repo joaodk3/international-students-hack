@@ -10,7 +10,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl font-bold font-mono mb-4 text-white">
-              GLOBAL_HACK<span className="text-primary">/&gt;</span>
+              INTL_HACK<span className="text-primary">/&gt;</span>
             </h3>
             <p className="text-muted-foreground max-w-sm">
               Empowering international students to build the future through innovation, technology, and global collaboration.

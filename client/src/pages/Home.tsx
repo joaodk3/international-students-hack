@@ -51,7 +51,7 @@ function Hero() {
           className="mb-6 inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/30 bg-primary/5 backdrop-blur-sm"
         >
           <Globe className="w-4 h-4 text-primary animate-spin-slow" />
-          <span className="text-sm font-mono text-primary/80 uppercase tracking-widest">Global Hackathon 2026</span>
+          <span className="text-sm font-mono text-primary/80 uppercase tracking-widest">International Innovators Hackathon 2026</span>
         </motion.div>
 
         <motion.h1 
