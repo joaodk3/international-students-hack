@@ -60,9 +60,9 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          FROM YOUR <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-gray-500">CAMPUS</span> TO <br />
-          THE <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-cyan-400 to-secondary text-glow">WORLD</span>
+          BUILT BY <br />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-gray-500">INTERNATIONAL</span> <br />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-cyan-400 to-secondary text-glow">STUDENTS</span>
         </motion.h1>
 
         <motion.p 
@@ -71,7 +71,7 @@ function Hero() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          International Students Building Global Impact.
+          F-1 students in the U.S. solving real-world problems across 8 tracks.
           <br />
           <span className="text-primary font-mono text-base mt-2 block">Powered by USTAY Global Mobility Solutions</span>
         </motion.p>
