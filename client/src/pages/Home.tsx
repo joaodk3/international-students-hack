@@ -71,8 +71,7 @@ function Hero() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          45% of U.S. unicorn founders are immigrants. Be the next one.
-          <br />
+          45% of U.S. unicorn founders are immigrants — be the next one.
           <span className="text-primary font-mono text-base mt-2 block">Powered by USTAY Global Mobility Solutions</span>
         </motion.p>
 
