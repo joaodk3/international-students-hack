@@ -74,7 +74,7 @@ export function Navigation() {
             </a>
           ))}
           <a
-            href={import.meta.env.VITE_REGISTRATION_FORM_URL || "#"}
+            href={import.meta.env.VITE_REGISTRATION_FORM_URL || "https://tally.so/r/gDMEg4"}
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 bg-primary/10 border border-primary/50 text-primary rounded hover:bg-primary hover:text-background transition-all font-mono text-sm font-bold uppercase"
@@ -113,9 +113,17 @@ export function Navigation() {
                 </a>
               ))}
               <a
+                href={import.meta.env.VITE_REGISTRATION_FORM_URL || "https://tally.so/r/gDMEg4"}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 w-full text-center px-4 py-3 bg-primary text-background font-bold rounded hover:bg-primary/90 transition-all uppercase"
+              >
+                Register
+              </a>
+              <a
                 href="/OFFICIAL_RULES.pdf"
                 download
-                className="mt-2 w-full text-center px-4 py-3 bg-primary text-background font-bold rounded hover:bg-primary/90 transition-all uppercase"
+                className="w-full text-center px-4 py-3 border border-primary text-primary font-bold rounded hover:bg-primary/10 transition-all uppercase"
               >
                 Official Rules
               </a>

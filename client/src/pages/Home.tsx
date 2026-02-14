@@ -88,7 +88,7 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          <a href={import.meta.env.VITE_REGISTRATION_FORM_URL || "#"} target="_blank" rel="noopener noreferrer">
+          <a href={import.meta.env.VITE_REGISTRATION_FORM_URL || "https://tally.so/r/gDMEg4"} target="_blank" rel="noopener noreferrer">
             <CyberButton variant="primary" className="w-full sm:w-auto">
               Register Now <ChevronRight className="w-4 h-4" />
             </CyberButton>
