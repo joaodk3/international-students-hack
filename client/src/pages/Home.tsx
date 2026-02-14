@@ -410,7 +410,7 @@ function Sponsor() {
 // --- FAQ SECTION ---
 function FAQ() {
   const faqs = [
-    { q: "Who can participate?", a: "This hackathon is exclusively for students currently on F-1 visa status residing within the United States. We will verify status during registration." },
+    { q: "Who can participate?", a: "This hackathon is exclusively for students currently on F-1 visa status residing within the United States." },
     { q: "Is this considered employment?", a: "No. This is an educational competition. There is no employer-employee relationship, and participation does not constitute work authorization or OPT/CPT usage." },
     { q: "What is the team size?", a: "You can participate solo or in teams of up to 3 people. We encourage forming diverse teams with different skill sets." },
     { q: "Does it cost anything?", a: "No, participation is completely free for all eligible students." },
