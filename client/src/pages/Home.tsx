@@ -71,7 +71,7 @@ function Hero() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          F-1 students in the U.S. solving real-world problems across 8 tracks.
+          45% of U.S. unicorn founders are immigrants. Be the next one.
           <br />
           <span className="text-primary font-mono text-base mt-2 block">Powered by USTAY Global Mobility Solutions</span>
         </motion.p>
