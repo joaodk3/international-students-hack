@@ -4,7 +4,7 @@ import path from "path";
 import fs from "fs";
 import { storage } from "./storage";
 
-const RULES_PDF = "OFFICIAL_RULES_1771107438587.pdf";
+const RULES_PDF = "OFFICIAL RULES.pdf";
 
 export async function registerRoutes(
   httpServer: Server,

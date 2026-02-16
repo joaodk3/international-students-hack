@@ -246,20 +246,20 @@ function Tracks() {
 }
 
 // --- TIMELINE SECTION ---
-// All times Eastern Time (ET)
+// All times are in the Eastern Time Zone (ET).
 const events = [
-  { date: "Feb 20, 2026 (ET)", title: "Registration Opens", desc: "Sign up and form your teams." },
-  { date: "Mar 7, 2026 12:00 AM ET", title: "Opening Ceremony", desc: "Challenge reveal and hacking begins." },
-  { date: "Mar 7–9, 2026 (midnight ET)", title: "Building Phase", desc: "48 hours of development. Mar 7 12:00 AM ET through Mar 9 11:59 PM ET." },
-  { date: "Mar 9–14, 2026 (ET)", title: "Judging Period", desc: "Expert panel reviews submissions. March 9 through March 14, Eastern Time." },
-  { date: "Mar 15, 2026 (ET)", title: "Winners Announced", desc: "Closing ceremony & awards." },
+  { date: "February 20 (ET)", title: "Registration Opens", desc: "Sign up and form your teams." },
+  { date: "March 7 (ET)", title: "Opening Ceremony", desc: "Challenge reveal and hacking begins." },
+  { date: "March 7 – March 9, 11:59 PM ET", title: "Submission Period", desc: "Build and submit your project. Submissions close March 9 at 11:59 PM ET." },
+  { date: "March 10 – March 13 (ET)", title: "Judging Period", desc: "Expert panel reviews submissions." },
+  { date: "March 14 (ET)", title: "Final Results & Closing Ceremony", desc: "Winners announced and closing ceremony." },
 ];
 
 function Timeline() {
   return (
     <section id="timeline" className="py-20 md:py-32 bg-background relative">
       <div className="container mx-auto px-4 md:px-6">
-        <SectionHeading title="Event Timeline" subtitle="All times Eastern Time (ET). Mark your calendars." />
+        <SectionHeading title="Event Timeline" subtitle="All times are in the Eastern Time Zone (ET). Mark your calendars." />
         
         <div className="relative max-w-4xl mx-auto">
           {/* Vertical Line */}
