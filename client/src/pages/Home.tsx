@@ -246,19 +246,20 @@ function Tracks() {
 }
 
 // --- TIMELINE SECTION ---
+// All times Eastern Time (ET)
 const events = [
-  { date: "Feb 20, 2026", title: "Registration Opens", desc: "Sign up and form your teams." },
-  { date: "Mar 07, 2026", title: "Opening Ceremony", desc: "Challenge reveal and hacking begins." },
-  { date: "Mar 07-12, 2026", title: "Building Phase", desc: "5 days of intense development." },
-  { date: "Mar 12-17, 2026", title: "Judging Period", desc: "Expert panel reviews submissions." },
-  { date: "Mar 20, 2026", title: "Winners Announced", desc: "Closing ceremony & awards." },
+  { date: "Feb 20, 2026 (ET)", title: "Registration Opens", desc: "Sign up and form your teams." },
+  { date: "Mar 7, 2026 12:00 AM ET", title: "Opening Ceremony", desc: "Challenge reveal and hacking begins." },
+  { date: "Mar 7–9, 2026 (midnight ET)", title: "Building Phase", desc: "48 hours of development. Mar 7 12:00 AM ET through Mar 9 11:59 PM ET." },
+  { date: "Mar 9–14, 2026 (ET)", title: "Judging Period", desc: "Expert panel reviews submissions. March 9 through March 14, Eastern Time." },
+  { date: "Mar 15, 2026 (ET)", title: "Winners Announced", desc: "Closing ceremony & awards." },
 ];
 
 function Timeline() {
   return (
     <section id="timeline" className="py-20 md:py-32 bg-background relative">
       <div className="container mx-auto px-4 md:px-6">
-        <SectionHeading title="Event Timeline" subtitle="Mark your calendars." />
+        <SectionHeading title="Event Timeline" subtitle="All times Eastern Time (ET). Mark your calendars." />
         
         <div className="relative max-w-4xl mx-auto">
           {/* Vertical Line */}
