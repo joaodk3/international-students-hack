@@ -16,7 +16,7 @@ export async function registerRoutes(
       return res.status(404).json({ message: "Rules PDF not found." });
     }
     res.setHeader("Content-Type", "application/pdf");
-    res.setHeader("Content-Disposition", 'attachment; filename="OFFICIAL_RULES.pdf"');
+    res.setHeader("Content-Disposition", 'attachment; filename="OFFICIAL_RULES_HACK.pdf"');
     res.sendFile(filePath);
   });
 
